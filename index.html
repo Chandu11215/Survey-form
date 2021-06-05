@@ -9,101 +9,82 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="title">Spicy Food Survey</h1>
-    <form action="" id="survey-form">
-    <div class="row-tab">
-        <div class="label-Food">
-            <label> Name:</label>
-        </div>
-        <div class="input-Food">
-              <input type="text" placeholder="Name">
-        </div>
-    </div>
-    <div class="row-tab">
-        <div class="label-Food">
-            <label> Age:</label>
-        </div>
-        <div class="input-Food">
-              <input type="number" placeholder="Age">
-        </div>
-    </div>
-    <div class="row-tab">
-        <div class="label-Food">
-            <label for> Email:</label>
-        </div>
-        <div class="input-Food">
-              <input type="email" placeholder="Email">
-        </div>
-    </div>
-    <div class="row-tab">
-        <div class="label-select">
-            <label for="">Select Fav Food: </label>
-        </div>
-        <div class="select-input">
-            <select>
-                <option value="Burger">Burger</option>
-                <option value="Pizza">Pizza</option>
-                <option value="Hot Dog">Hot Dog</option>
-                <option value="Chicken 65">Chicken 65</option>
-                <option value="Chicken Mandi">Chicken Mandi</option>
-            </select>
-        </div>
-    </div>
-    <div class="row-tab">
-        <div class="labels-radio"> 
-            Location:  
-         </div>   
-        <div class="input-radio">
-        <div>
-        <label >Hyderabad
-        <input type="radio" name="location">
-    </label>
-    </div>
-    <div>
-    <label> Banglore
-        <input type="radio" name="location">
-    </label>
-    </div>
-    <div>
-    <label> Chennai
-        <input type="radio" name="location">
-    </label>
-       </div>
-      </div>
-    </div>
+    <h1 id="title">Captain America Survey Form</h1>
 
-    <div class="row-tab">
-        <div class="checkbox-labels">
-        <label>Bread: </label>
-    </div>
-    <div class="checkbox-input">
-       <div> 
-        <label>White
-        <input type="checkbox">
-    </label>
-    </div>
-    <div>
-        <label>
-            Brown
-        <input type="checkbox">
-    </label>
-    </div>
-    <div>
-        <label>50/50
-        <input type="checkbox">
-    </label>
-   </div>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
 
- </div>
+<div id="body">
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  
+   <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+   <label id="number-label" for="number">
+  <p>Age:</p>
+  </label>
+  
+  <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+  
+  <p>Which Leadership Quality Do You Think make Captain America A Good Leader:</p>
+  <select id="dropdown">
+    
+    <option value="default">Nothing</option>
+    <option value="He has a moral center.">He has a moral center.</option>
+    <option value="He stands for something.">He stands for something.</option>
+    <option value="He shuns the limelight.">He shuns the limelight.</option>
+    <option value="He protects his team.">He protects his team.</option>
+    <option value="He adapts to strengths and weaknesses.">He adapts to strengths and weaknesses.</option>
+    
+  </select>
+  
+  <p>Which Captain America Movie Do You Like The Most?</p>
+  
+  <input type="radio" name="movie" value="1">Captain America: The First Avenger
+  <br>
+  <input type="radio" name="movie" value="2">The Avengers
+  <br>
+ <input type="radio" name="movies" value="3">Captain America: The Winter Soldier
+<br>
+ <input type="radio" name="movies" value="4">Avengers: Age of Ultron
+<br>
+ <input type="radio" name="movies" value="5">Captain America: Civil War
+<br>
+ <input type="radio" name="movies" value="6">Avengers: Infinity War
+<br>
+ <input type="radio" name="movies" value="7">Avengers: Endgame
+
+<p>Which Of The Other Avenger(Original 6) Do You Like?</p>
+
+<input type="checkbox" name="avenger" value="1">Iron Man
+<br>
+ <input type="checkbox" name="avengers" value="2">Hawkeye
+<br>
+ <input type="checkbox" name="avengers" value="3">Hulk
+<br>
+ <input type="checkbox" name="avengers" value="4">Thor
+<br>
+ <input type="checkbox" name="avengers" value="5">Black Widow
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+            
+</form>
+
 </div>
 
-    <div class="row-tab">
-        <textarea>Enter your comments here
-        </textarea>
-    </div>
-    <div class="row-tab">
-    <button style="padding: 10px">Submit</button>
-</div>
-    </form>
+  
 </body>
 </html>

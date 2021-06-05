@@ -1,63 +1,66 @@
-body {
-    text-align: center;
+body{
+  text-align:center;
+  font-family:sans-serif;
+  background-image:linear-gradient(to bottom right, #33adff , #7300e6);
+  color:white;
+  
+}
+#title{
+  font-size:45px;
+}
+#description{
+  font-size:20px;
 }
 
-#survey-form {
-    width: 900px;
-    margin: 0 auto;
-    background-color: purple;
-}
-.row-tab {
-    display: block;
-    padding-top: 20px;
-}
-.label-Food {
-    display: inline-block;
-    width: 40%;
-    text-align: right;
+
+#body{
+  width:600px;
+  padding:30px;
+  margin:auto;
+  border-radius:10px;
+  text-align:left;
+  background-color:rgba(0,0,0,0.6);
+  font-size:20px;
+  color:white;
+  
 }
 
-.input-Food {
-    display: inline-block;
-    text-align: left;
-    width: 48%;
+#name{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
 }
-
-.select-input {
-    display: inline-block;
-    text-align: left;
-    width: 48%;
+#email{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
 }
-
-.label-select {
-    display: inline-block;
-    width: 40%;
-    text-align: right;
+#number{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
 }
-.labels-radio {
-    display: inline-block;
-    width: 40%;
-    text-align: right;
-    vertical-align: top;
+#dropdown{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
 }
-
-.input-radio {
-    display: inline-block;
-    text-align: left;
-    width: 48%;
+#comment{
+  width:590px;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+  
 }
-.checkbox-labels {
-   display: inline-block;
-    width: 40%;
-    text-align: right;
-    vertical-align: top; 
-}
-.checkbox-input {
-    display: inline-block;
-    text-align: left;
-    width: 48%;
-}
-.button {
-    padding: 20px;
+#submit{
+  width:590px;
+  padding:20px;
+  font-size:20px;
+  border-radius:10px;
+  border:none;
+  margin-top:3%;
+  color:white;
+  background-color:green;
+  
 }
 
